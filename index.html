@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntegraIdade - Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Adiciona uma fonte sans-serif padrão para melhor aparência */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Você pode importar a 'Inter' ou outra fonte no seu <head> real */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="relative min-h-screen overflow-x-hidden py-10">
+
+        <div class="absolute top-12 right-0 md:right-20 z-0 text-blue-500 opacity-70 transform -rotate-45">
+            <svg class="w-20 h-20" viewBox="0 0 100 100" fill="currentColor">
+                <path d="M40 0 C20 0 0 20 0 40 C0 60 10 70 20 80 C30 90 40 100 40 100 L60 100 C60 100 70 90 80 80 C90 70 100 60 100 40 C100 20 80 0 60 0 C50 0 50 20 40 20 C30 20 30 0 40 0 Z"></path>
+            </svg>
+        </div>
+
+        <div class="absolute top-1/4 -left-8 md:left-20 z-0 text-orange-400 opacity-70 transform rotate-90">
+            <svg class="w-28 h-28" viewBox="0 0 100 100" fill="currentColor">
+                <path d="M40 0 C20 0 0 20 0 40 C0 60 10 70 20 80 C30 90 40 100 40 100 L60 100 C60 100 70 90 80 80 C90 70 100 60 100 40 C100 20 80 0 60 0 C50 0 50 20 40 20 C30 20 30 0 40 0 Z"></path>
+            </svg>
+        </div>
+
+        <div class="absolute top-1/2 right-0 md:right-24 z-0 text-blue-500 opacity-70 transform rotate-45">
+            <svg class="w-24 h-24" viewBox="0 0 100 100" fill="currentColor">
+                <path d="M40 0 C20 0 0 20 0 40 C0 60 10 70 20 80 C30 90 40 100 40 100 L60 100 C60 100 70 90 80 80 C90 70 100 60 100 40 C100 20 80 0 60 0 C50 0 50 20 40 20 C30 20 30 0 40 0 Z"></path>
+            </svg>
+        </div>
+
+        <div class="absolute bottom-10 -left-8 md:left-20 z-0 text-orange-400 opacity-70 transform rotate-180">
+            <svg class="w-28 h-28" viewBox="0 0 100 100" fill="currentColor">
+                <path d="M40 0 C20 0 0 20 0 40 C0 60 10 70 20 80 C30 90 40 100 40 100 L60 100 C60 100 70 90 80 80 C90 70 100 60 100 40 C100 20 80 0 60 0 C50 0 50 20 40 20 C30 20 30 0 40 0 Z"></path>
+            </svg>
+        </div>
+
+        <header class="text-center mb-6">
+            <div class="inline-block text-lg font-bold text-gray-700">
+                INTREGA<span class="font-extrabold text-purple-600">IDADE</span>
+            </div>
+        </header>
+
+        <main class="relative container mx-auto max-w-2xl py-8 px-4 z-10 space-y-8">
+
+            <section class="text-center">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900">
+                    INTREGA<span class="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">IDADE</span>
+                </h1>
+                
+                <p class="mt-4 text-sm text-gray-600 max-w-lg mx-auto">
+                    Democratizar e dar visibilidade às iniciativas sociais e seus trabalhos, gerindo transparência e eficiência na conexão entre doadores e projetos sociais validados.
+                </p>
+
+                <div class="mt-8">
+                    <div class="relative inline-block text-left" id="dropdown-container">
+                        <button id="dropdown-button" type="button" class="bg-red-500 text-white font-semibold py-2 px-6 rounded-full shadow-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-75 transition-all duration-200">
+                            Cadastre aqui esse projeto
+                        </button>
+
+                        <div id="dropdown-menu" class="hidden absolute left-1/2 -translate-x-1/2 mt-2 w-56 rounded-md shadow-xl bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Opção 1: Doar</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Opção 2: Voluntariar</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Opção 3: Saber Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="h-1 bg-gradient-to-r from-transparent via-orange-300 to-transparent my-10"></div>
+
+            <section class="text-center">
+                <div class="inline-block border-2 border-blue-400 rounded-md p-3 px-8 shadow-sm bg-white">
+                    <h2 class="text-3xl font-bold text-gray-800">
+                        Nome da ong
+                    </h2>
+                    <p class="text-sm text-gray-500 mt-1">
+                        Author: Nome do Autor
+                    </p>
+                </div>
+            </section>
+
+            <div class="space-y-6">
+                <section class="bg-white border border-gray-200 rounded-xl shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-center mb-3">Objetivo</h3>
+                    <p class="text-sm text-gray-700">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae urna et felis finibus vestibulum at vel ante. Proin ornare sagittis tellus suscipit iaculis. Nullam nisl libero, dignissim eu eleifend imperdiet, suscipit eu nisi. Maecenas lacinia arcu felis, quis tincidunt turpis vulputate sed. Pellentesque eget porttitor orci. Quisque placerat.
+                    </p>
+                </section>
+
+                <section class="bg-white border border-gray-200 rounded-xl shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-center mb-3">Necessidades</h3>
+                    <p class="text-sm text-gray-700">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae urna et felis finibus vestibulum at vel ante. Proin ornare sagittis tellus suscipit iaculis. Nullam nisl libero, dignissim eu eleifend imperdiet, suscipit eu nisi. Maecenas lacinia arcu felis, quis tincidunt turpis vulputate sed. Pellentesque eget porttitor orci. Quisque placerat.
+                    </p>
+                </section>
+
+                <section class="bg-white border border-gray-200 rounded-xl shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-center mb-3">Atividades</h3>
+                    <p class="text-sm text-gray-700">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae urna et felis finibus vestibulum at vel ante. Proin ornare sagittis tellus suscipit iaculis. Nullam nisl libero, dignissim eu eleifend imperdiet, suscipit eu nisi. Maecenas lacinia arcu felis, quis tincidunt turpis vulputate sed. Pellentesque eget porttitor orci. Quisque placerat.
+                    </s_section>
+
+                <section class="bg-white border border-gray-200 rounded-xl shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-center mb-3">Nosso espaço</h3>
+                    <p class="text-sm text-gray-700">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae urna et felis finibus vestibulum at vel ante. Proin ornare sagittis tellus suscipit iaculis. Nullam nisl libero, dignissim eu eleifend imperdiet, suscipit eu nisi. Maecenas lacinia arcu felis, quis tincidunt turpis vulputate sed. Pellentesque eget porttitor orci. Quisque placerat.
+                    </p>
+                </section>
+            </div>
+
+            <section class="bg-white border border-gray-200 rounded-xl shadow-lg p-6 mt-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="https://placehold.co/300x300/e2e8f0/333?text=Imagem+1" alt="Galeria Imagem 1" class="rounded-lg object-cover w-full h-36 md:h-40">
+                        <img src="https://placehold.co/300x300/e2e8f0/333?text=Imagem+2" alt="Galeria Imagem 2" class="rounded-lg object-cover w-full h-36 md:h-40">
+                        <img src="https://placehold.co/300x300/e2e8f0/333?text=Imagem+3" alt="Galeria Imagem 3" class="rounded-lg object-cover w-full h-36 md:h-40">
+                        <img src="https://placehold.co/300x300/e2e8f0/333?text=Imagem+4" alt="Galeria Imagem 4" class="rounded-lg object-cover w-full h-36 md:h-40">
+                    </div>
+
+                    <div class="text-sm text-gray-700">
+                        <ul class="list-disc list-inside space-y-3">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin</li>
+                            <li>ecenas lacinia arcu felis, quis tincidunt turpis vulputate sed.</li>
+                            <li>ellentesque eget porttitor orci. Quisque placerat</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
