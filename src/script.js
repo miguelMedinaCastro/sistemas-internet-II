@@ -1,4 +1,3 @@
-
 const dropdownContainer = document.getElementById('dropdown-container');
 const dropdownButton = document.getElementById('dropdown-button');
 const dropdownMenu = document.getElementById('dropdown-menu');
@@ -20,23 +19,25 @@ document.addEventListener('click', (event) => {
     }
 });
 
+function esconderOutros(exibir) {
+    miguel.classList.add('hidden');
+    milena.classList.add('hidden');
+    bruno.classList.add('hidden');
+    exibir.classList.toggle('hidden');
+    dropdownMenu.classList.add('hidden');
+}
+
 botao1.addEventListener('click', (event) => {
     event.stopPropagation(); 
-    miguel.classList.toggle('hidden');
-    bruno.classList.add('hidden');
-    milena.classList.add('hidden');
+    esconderOutros(miguel);
 });
 
 botao2.addEventListener('click', (event) => {
     event.stopPropagation(); 
-    milena.classList.toggle('hidden');
-    bruno.classList.add('hidden');
-    miguel.classList.add('hidden');
+    esconderOutros(milena);
 });
 
 botao3.addEventListener('click', (event) => {
     event.stopPropagation(); 
-    bruno.classList.toggle('hidden');
-    milena.classList.add('hidden');
-    miguel.classList.add('hidden');
+    esconderOutros(bruno);
 });
