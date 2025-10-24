@@ -80,7 +80,7 @@ main p {
   min-height: 100vh; 
   overflow: hidden;
   border-radius: 0;
-  background: url("/assets/images/network_blue.gif") center/cover no-repeat;
+  background: url("network_blue.gif") center/cover no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin-top: 0; 
@@ -154,7 +154,7 @@ main p {
   min-height: 100vh; 
   overflow: hidden;
   border-radius: 0;
-  background: url("/assets/images/network_blue.gif") center/cover no-repeat;
+  background: url("network_blue.gif") center/cover no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin-top: 0;
@@ -220,7 +220,7 @@ main p {
   min-height: 100vh; 
   overflow: hidden;
   border-radius: 0;
-  background: url("/assets/images/network_blue.gif") center/cover no-repeat;
+  background: url("network_blue.gif") center/cover no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin-top: 0;
